@@ -22,6 +22,7 @@
 		DC465B6D2D25A72700EAB5F9 /* EmployeeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC465B6C2D25A72700EAB5F9 /* EmployeeCoordinator.swift */; };
 		DC465B702D25A7D700EAB5F9 /* StoryBoards.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC465B6F2D25A7D700EAB5F9 /* StoryBoards.swift */; };
 		DC465B742D25ADD300EAB5F9 /* SingletonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC465B732D25ADD300EAB5F9 /* SingletonClass.swift */; };
+		DC465B762D25B21900EAB5F9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DC465B752D25B21900EAB5F9 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		DC465B6C2D25A72700EAB5F9 /* EmployeeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeCoordinator.swift; sourceTree = "<group>"; };
 		DC465B6F2D25A7D700EAB5F9 /* StoryBoards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBoards.swift; sourceTree = "<group>"; };
 		DC465B732D25ADD300EAB5F9 /* SingletonClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonClass.swift; sourceTree = "<group>"; };
+		DC465B752D25B21900EAB5F9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		DC465B472D24632300EAB5F9 /* DesignPatternsExamples */ = {
 			isa = PBXGroup;
 			children = (
+				DC465B752D25B21900EAB5F9 /* README.md */,
 				DC465B6E2D25A7C400EAB5F9 /* Utils */,
 				DC465B482D24632300EAB5F9 /* AppDelegate.swift */,
 				DC465B4A2D24632300EAB5F9 /* SceneDelegate.swift */,
@@ -186,6 +189,7 @@
 			files = (
 				DC465B522D24632600EAB5F9 /* Assets.xcassets in Resources */,
 				DC465B552D24632600EAB5F9 /* Base in Resources */,
+				DC465B762D25B21900EAB5F9 /* README.md in Resources */,
 				DC465B502D24632300EAB5F9 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
