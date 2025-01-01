@@ -15,9 +15,17 @@ This app will cover following Desgin Patterns
 
 ## MVC ##
 
-Initally app launched and uses MVC which is default design pattern in swift. 'ViewController' and 'Storyboard' are there which represent Model and View. 
+The MVC pattern divides the responsibilities of an iOS application into different sectors that serve their purpose. The MVC separates the business and operations side of the application from the presentation layer while tasking a middleman, known as the controller object, to facilitate interactions between the Model and View, including retrieving data from the database, manipulating it, and either sending it back to the database or using it for rendering.
 
 ## Singleton ##
+
+Singleton is a design pattern that is very popular in development. Most of the developers are using this design pattern. This is very simple, common and easy to use in your project. It initializes your class instance single time only with static property and it will share your class instance globally.
+
+Things Keep in mind while creating Singleton Class
+
+- Put 'final' keyword while creating class to prevent it from subclassing
+- Make initialisers as 'private'
+- Use 'static' keyword to for sharedInstance of class. 
 
 ## MVVM ##
 
