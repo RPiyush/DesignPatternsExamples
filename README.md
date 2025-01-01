@@ -36,3 +36,7 @@ Model-View-ViewModel (MVVM) is a design pattern widely used in iOS app developme
 - View-Model: It acts intermidator between model and view. It holds all logic of app. 
 
 ## Facade Design Pattern ##
+
+Facades define a higher-level interface that makes the subsystem easier to use. The facade design pattern is often used in iOS development to simplify the interaction with complex subsystems, such as the network layer, the database layer, and the view layer. Facade design pattern class provides a simple interface to all subsystem exist in app. 
+
+For example: lets say 'checkBalace() -> int' function in any of the app. Dev can use it whenever wants. This will performs required task and return results.   
