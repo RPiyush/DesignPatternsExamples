@@ -20,12 +20,13 @@ class ViewController: UIViewController {
     }
 
     private func setupView() {
-        tableViewArray.append("MVC Pattern")
-        tableViewArray.append("MVVM Pattern")
+        tableViewArray.append(DesignPatterns.mvc.rawValue)
+        tableViewArray.append(DesignPatterns.singleton.rawValue)
+        tableViewArray.append(DesignPatterns.mvvm.rawValue)
     }
 
-    private func showCommingSoonAlert() {
-        let vc = UIAlertController(title: "", message: "Feature Coming Soon..", preferredStyle: .alert)
+    private func showCommingSoonAlert(_ message: String = "Feature Coming Soon..") {
+        let vc = UIAlertController(title: "", message: message, preferredStyle: .alert)
         let okAction = UIAlertAction(title: "OK", style: .cancel)
         vc.addAction(okAction)
         self.present(vc, animated: true)
@@ -48,6 +49,8 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let value = tableViewArray[indexPath.row]
         switch DesignPatterns(rawValue: value) {
+        case .singleton:
+            showCommingSoonAlert("In application Singleton Design Pattern used, check in code.")
         case .mvvm:
             guard  let nvc = self.navigationController else {
                 print("No storyboard with this identifier")
@@ -64,4 +67,5 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
 enum DesignPatterns: String {
     case mvc = "MVC Pattern"
     case mvvm = "MVVM Pattern"
+    case singleton = "Singleton Pattern"
 }

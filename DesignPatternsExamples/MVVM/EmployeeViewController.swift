@@ -30,7 +30,7 @@ class EmployeeViewController: UIViewController {
     private func updateTable() {
         self.dataSource = EmployeeTableViewDataSource(cellIdentifier: "EmployeeTableViewCell", items: self.model.empData.users, configureCell: { (cell, evm) in
             cell.employeeIdLabel.text = "\(evm.idInt)."
-            cell.employeeNameLabel.text = evm.firstName + " " + evm.lastName
+            cell.employeeNameLabel.text = SingletonClass.sharedInstance.appendName(firstName: evm.firstName, lastName: evm.lastName)
         })
 
         DispatchQueue.main.async {

@@ -21,6 +21,7 @@
 		DC465B6B2D246EE700EAB5F9 /* EmployeeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC465B6A2D246EE700EAB5F9 /* EmployeeTableViewCell.swift */; };
 		DC465B6D2D25A72700EAB5F9 /* EmployeeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC465B6C2D25A72700EAB5F9 /* EmployeeCoordinator.swift */; };
 		DC465B702D25A7D700EAB5F9 /* StoryBoards.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC465B6F2D25A7D700EAB5F9 /* StoryBoards.swift */; };
+		DC465B742D25ADD300EAB5F9 /* SingletonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC465B732D25ADD300EAB5F9 /* SingletonClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		DC465B6A2D246EE700EAB5F9 /* EmployeeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeTableViewCell.swift; sourceTree = "<group>"; };
 		DC465B6C2D25A72700EAB5F9 /* EmployeeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeCoordinator.swift; sourceTree = "<group>"; };
 		DC465B6F2D25A7D700EAB5F9 /* StoryBoards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBoards.swift; sourceTree = "<group>"; };
+		DC465B732D25ADD300EAB5F9 /* SingletonClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				DC465B4A2D24632300EAB5F9 /* SceneDelegate.swift */,
 				DC465B4C2D24632300EAB5F9 /* ViewController.swift */,
 				DC465B4E2D24632300EAB5F9 /* Main.storyboard */,
+				DC465B722D25ADA200EAB5F9 /* Singleton */,
 				DC465B5C2D24672B00EAB5F9 /* MVVM */,
 				DC465B512D24632600EAB5F9 /* Assets.xcassets */,
 				DC465B532D24632600EAB5F9 /* LaunchScreen.storyboard */,
@@ -113,6 +116,14 @@
 				DC465B6F2D25A7D700EAB5F9 /* StoryBoards.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		DC465B722D25ADA200EAB5F9 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				DC465B732D25ADD300EAB5F9 /* SingletonClass.swift */,
+			);
+			path = Singleton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC465B742D25ADD300EAB5F9 /* SingletonClass.swift in Sources */,
 				DC465B622D24685400EAB5F9 /* EmployeeViewController.swift in Sources */,
 				DC465B672D246AF200EAB5F9 /* APIService.swift in Sources */,
 				DC465B702D25A7D700EAB5F9 /* StoryBoards.swift in Sources */,
